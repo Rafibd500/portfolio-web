@@ -1,0 +1,243 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #banner {
+        background-position: center;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* banner part start  */
+    #banner{
+        background-position: center;
+    }
+    #banner .banner-overlay {
+        padding-top: 240px;
+        padding-bottom: 180px;
+
+    }
+
+
+    .banner-text h3 {
+        font-size: 26px;
+    }
+
+
+    .banner-text h1 {
+        font-weight: 400;
+        font-size: 35px;
+        padding: 30px 0px 10px 0px;
+
+    }
+
+    .banner-text span {
+        font-size: 50px;
+    }
+
+    .banner-text p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    /* banner part end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header part start  */
+    .navbar button {
+        outline: none;
+        border: none;
+    }
+
+    .navbar button i {
+        font-size: 30px;
+        color: #000;
+    }
+
+    /* header part end */
+    .navbar-nav .nav-link::after,
+    .navbar-nav .nav-link::before {
+        display: none;
+    }
+
+    .navbar-nav .nav-link {
+        line-height: 40px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #navbarSupportedContent .menu-btn {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    /* header part end  */
+
+    /* banner part start  */
+    #banner .banner-overlay {
+        padding-top: 240px;
+        padding-bottom: 180px;
+
+    }
+    .banner-content{
+        margin-right: auto;
+    }
+
+    .banner-text h3 {
+        font-size: 26px;
+    }
+
+
+    .banner-text h1 {
+        font-weight: 400;
+        font-size: 40px;
+        padding: 30px 0px 10px 0px;
+
+    }
+
+    .banner-text span {
+        font-size: 60px;
+    }
+
+    .banner-text p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    /* banner part end */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* header part start  */
+    .navbar button {
+        outline: none;
+        border: none;
+    }
+
+    .navbar button i {
+        font-size: 30px;
+        color: #000;
+    }
+
+    /* header part end */
+    .navbar-nav .nav-link::after,
+    .navbar-nav .nav-link::before {
+        display: none;
+    }
+
+    .navbar-nav .nav-link {
+        line-height: 40px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #navbarSupportedContent .menu-btn {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    /* header part end  */
+
+    /* banner part start  */
+    #banner .banner-overlay {
+        padding-top: 220px;
+        padding-bottom: 180px;
+
+    }
+
+    .banner-text h3 {
+        font-size: 26px;
+    }
+
+
+    .banner-text h1 {
+        font-weight: 400;
+        font-size: 35px;
+        padding: 30px 0px 10px 0px;
+
+    }
+
+    .banner-text span {
+        font-size: 50px;
+    }
+
+    .banner-text p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    /* banner part end */
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* header part start  */
+    .navbar button {
+        outline: none;
+        border: none;
+    }
+    .navbar button i{
+        font-size: 30px;
+        color: #000;
+    }
+    /* header part end */
+    .navbar-nav .nav-link::after,
+    .navbar-nav .nav-link::before {
+        display: none;
+    }
+
+    .navbar-nav .nav-link {
+        line-height: 40px;
+        border-bottom: 1px solid #ddd;
+    }
+    #navbarSupportedContent .menu-btn{
+        text-align: center;
+        margin-top: 30px;
+    }
+    /* header part end  */
+
+    /* banner part start  */
+    #banner .banner-overlay {
+        padding-top: 200px;
+        padding-bottom: 150px;
+
+    }
+    .banner-text h3 {
+        font-size: 24px;
+    }
+
+
+    .banner-text h1 {
+        font-weight: 400;
+        font-size: 30px;
+        padding: 20px 0px 10px 0px;
+
+    }
+
+    .banner-text span {
+        font-family: 'Poppins',
+            sans-serif;
+        font-weight: 400;
+        font-size: 45px;
+    }
+
+    .banner-text p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    /* banner part end */
+
+
+
+}

@@ -1,0 +1,322 @@
+/* ----- all common css start -----  */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* ----- all common css end ----- */
+/* ----- header part start ----- */
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 9999;
+    
+}
+.bg {
+    background: #ffffff;
+    animation: menu 1s;
+
+}
+
+@keyframes menu {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0px;
+    }
+
+
+}
+
+.navbar .nav-item .nav-link {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    padding: 0px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #01be67;
+    letter-spacing: 1px;
+}
+
+.navbar .nav-item.active .nav-link {
+    color: #01be67;
+    letter-spacing: 1px;
+}
+
+.navbar .nav-item .nav-link::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 1px;
+    background-color: #01be67;
+    bottom: 20px;
+    left: 0px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.navbar .nav-item .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background-color: #01be67;
+    bottom: -25px;
+    left: 0px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+
+.navbar .nav-item .nav-link:hover::before {
+    bottom: -3px;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.navbar .nav-item .nav-link:hover::after {
+    bottom: -7px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar .nav-item.active .nav-link::before {
+    bottom: -3px;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.navbar .nav-item.active .nav-link::after {
+    bottom: -7px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-btn a {
+    width: 190px;
+    line-height: 60px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background: linear-gradient(to right, #01b299, #01be67);
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.menu-btn a::after {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #252525;
+    top: -275px;
+    left: -235px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    overflow: hidden;
+    z-index: -1;
+    transform: rotate(134deg);
+    -webkit-transform: rotate(134deg);
+    -moz-transform: rotate(134deg);
+    -ms-transform: rotate(134deg);
+    -o-transform: rotate(134deg);
+}
+
+.menu-btn a:hover:after {
+    top: -38px;
+    left: -53px;
+}
+
+.menu-btn a {
+    margin-left: 20px;
+}
+
+/* ----- header part end ----- */
+
+/* ----- banner part start ----- */
+#banner {
+
+    background: url(../images/fullscreenbgimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-overlay {
+    padding-top: 275px;
+    padding-bottom: 265px;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+.banner-text h3 {
+    color: #01be67;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+
+.banner-text h1 {
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #ffffff;
+    padding: 35px 0px 20px 0px;
+
+}
+.banner-text span {
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #01be67;
+   
+}
+
+.banner-text p {
+    font-family: 'Lato',
+        sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 30px; 
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#banner .banner-btn a {
+    color: #01be67;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    width: 189px;
+    line-height: 60px;
+    border: 2px solid #01be67;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+#banner .banner-btn a:hover {
+    color: #252525;
+    border: 2px solid transparent;
+    width: 191px;
+    line-height: 62px;
+}
+
+.banner-btn a::after {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right, #01b299, #01be67);
+    top: -275px;
+    left: -235px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    overflow: hidden;
+    z-index: -1;
+    transform: rotate(134deg);
+    -webkit-transform: rotate(134deg);
+    -moz-transform: rotate(134deg);
+    -ms-transform: rotate(134deg);
+    -o-transform: rotate(134deg);
+}
+
+.banner-btn a:hover:after {
+    top: -38px;
+    left: -53px;
+}
+
+/* ----- banner part end ----- */
+
+/* ----- about part start ----- */
+#about{
+    padding-top: 165px;
+    padding-bottom: 135px;
+}
+.about-img img{
+    width: 370px;
+}
+/* ----- about part end ----- */
