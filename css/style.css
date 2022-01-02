@@ -28,6 +28,29 @@ p {
 }
 
 /* ----- all common css end ----- */
+
+/* ----- common head start ----- */
+.common-head h3{
+    color: #252525;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+}
+.common-head h3::after{
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    background-color: #01be67;
+    bottom: -15px;
+    left: 0px;
+}
+/* ----- common head end ----- */
+
 /* ----- header part start ----- */
 .navbar{
     position: fixed;
@@ -318,5 +341,25 @@ p {
 }
 .about-img img{
     width: 370px;
+    border-right: 15px solid #ffffff;
+    border-bottom: 15px solid #ffffff;
 }
+.about-img{
+    
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.about-img::after{
+    position: absolute;
+    content: '';
+    height: 460px;
+    width: 370px;
+    bottom: -30px;
+    right: -30px;
+    background-color: #01be67;
+    z-index: -1;
+}
+
+
 /* ----- about part end ----- */
