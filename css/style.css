@@ -354,6 +354,7 @@ p {
     position: relative;
     z-index: 1;
     display: inline-block;
+    max-width: 370px;
 }
 
 .about-img::after {
