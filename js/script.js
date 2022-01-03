@@ -1,4 +1,3 @@
-
 // sticky header start
 $(function () {
   $(window).scroll(function () {
@@ -14,13 +13,13 @@ $(function () {
 
 // type 
 var typed = new Typed('.type', {
-    strings: [
-        'Web Designer',
-        'Web Developer',
-        'Wordpress Expert'
-    ],
-      typeSpeed: 100,
-      loop:true,
+  strings: [
+    'Web Designer',
+    'Web Developer',
+    'Wordpress Expert'
+  ],
+  typeSpeed: 100,
+  loop: true,
 });
 // type 
 // for animation 
@@ -29,32 +28,35 @@ AOS.init();
 
 // about progress bar start
 
-$('#wp').LineProgressbar({
+$(function () {
+  $(window).scroll(function () {
+    $('#wp').LineProgressbar({
 
-  percentage: 95, // 95%
-  duration:2000,
+      percentage: 95, // 95%
+      duration: 2000,
 
+    });
+    $('#css').LineProgressbar({
+
+      percentage: 85, // 85%
+      duration: 2000,
+
+
+    });
+    $('#html').LineProgressbar({
+
+      percentage: 95, // 95%
+      duration: 2000,
+
+
+    });
+    $('#graphics').LineProgressbar({
+
+      percentage: 85, // 85%
+      duration: 2000,
+
+
+    });
+  });
 });
-$('#css').LineProgressbar({
-
-  percentage: 85, // 85%
-  duration:2000,
-
-
-});
-$('#html').LineProgressbar({
-
-  percentage: 95, // 95%
-  duration:2000,
-
-
-});
-$('#graphics').LineProgressbar({
-
-  percentage: 85, // 85%
-  duration:2000,
-
-
-});
-
 // about progress bar end

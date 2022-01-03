@@ -347,11 +347,6 @@
     }
     .about-img {
         width: 300px;
-        margin: 0 auto;
-    }
-
-    .about-img img {
-        width: 100%;
     }
 
     .about-img::after {
@@ -370,7 +365,7 @@
     }
 
     .about-img-part {
-        text-align: center;
+        margin: 0 auto;
     }
 
     /* about part end */
