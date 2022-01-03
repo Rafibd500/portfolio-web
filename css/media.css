@@ -238,6 +238,32 @@
 
     /* banner part end */
 
+    /* about part start  */
+    #about{
+        padding: 100px 0px;
+    }
+    .about-img{
+        display: flex;
+        justify-content: center;
+    }
+    .about-img img{
+        width: 300px;
+    }
+    .about-img::after {
+        position: absolute;
+        content: '';
+        height: 391px;
+        width: 300px;
+        bottom: -20px;
+        right: 102px;
+        background-color: #01be67;
+        z-index: -1;
+    }
+    .about-text {
+        text-align: center;
+    }
+    /* about part end */
+
 
 
 }

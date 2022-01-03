@@ -26,3 +26,35 @@ var typed = new Typed('.type', {
 // for animation 
 AOS.init();
 // for animation 
+
+// about progress bar start
+
+$('#wp').LineProgressbar({
+
+  percentage: 95, // 95%
+  duration:2000,
+
+});
+$('#css').LineProgressbar({
+
+  percentage: 85, // 85%
+  duration:2000,
+
+
+});
+$('#html').LineProgressbar({
+
+  percentage: 95, // 95%
+  duration:2000,
+
+
+});
+$('#graphics').LineProgressbar({
+
+  percentage: 85, // 85%
+  duration:2000,
+
+
+});
+
+// about progress bar end

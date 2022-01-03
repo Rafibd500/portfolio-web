@@ -30,7 +30,7 @@ p {
 /* ----- all common css end ----- */
 
 /* ----- common head start ----- */
-.common-head h3{
+.common-head h3 {
     color: #252525;
     font-family: 'Poppins',
         sans-serif;
@@ -40,7 +40,8 @@ p {
     position: relative;
     display: inline-block;
 }
-.common-head h3::after{
+
+.common-head h3::after {
     content: '';
     position: absolute;
     width: 40%;
@@ -49,16 +50,18 @@ p {
     bottom: -15px;
     left: 0px;
 }
+
 /* ----- common head end ----- */
 
 /* ----- header part start ----- */
-.navbar{
+.navbar {
     position: fixed;
     width: 100%;
     background-color: #ffffff;
     z-index: 9999;
-    
+
 }
+
 .bg {
     background: #ffffff;
     animation: menu 1s;
@@ -253,13 +256,14 @@ p {
     padding: 35px 0px 20px 0px;
 
 }
+
 .banner-text span {
     font-family: 'Poppins',
         sans-serif;
     font-weight: 400;
     font-size: 60px;
     color: #01be67;
-   
+
 }
 
 .banner-text p {
@@ -268,7 +272,7 @@ p {
     font-weight: 400;
     font-size: 16px;
     color: #ffffff;
-    line-height: 30px; 
+    line-height: 30px;
     padding-top: 30px;
     padding-bottom: 50px;
 }
@@ -335,22 +339,25 @@ p {
 /* ----- banner part end ----- */
 
 /* ----- about part start ----- */
-#about{
+#about {
     padding-top: 165px;
     padding-bottom: 135px;
 }
-.about-img img{
+
+.about-img img {
     width: 370px;
     border-right: 15px solid #ffffff;
     border-bottom: 15px solid #ffffff;
 }
-.about-img{
-    
+
+.about-img {
+
     position: relative;
     z-index: 1;
     display: inline-block;
 }
-.about-img::after{
+
+.about-img::after {
     position: absolute;
     content: '';
     height: 460px;
@@ -361,5 +368,96 @@ p {
     z-index: -1;
 }
 
+.about-text h4 {
+    color: #464646;
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 45px 0px;
+}
 
+.about-text p {
+    color: #898989;
+    font-family: 'Lato',
+        sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about-head h3 {
+    padding-top: 50px;
+}
+
+.about-text p span {
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.about-icon {
+    margin-top: 50px;
+}
+
+.about-icon a i {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.about-icon a {
+    width: 35px;
+    line-height: 35px;
+    display: inline-block;
+    background-color: #161616;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.about-icon a:hover {
+    background-color: #01be67;
+}
+
+.about-skil-part {
+    margin-top: 70px;
+}
+
+.about-skill h3 {
+    color: #252525;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Lato',
+        sans-serif;
+    padding-bottom: 15px;
+}
+
+.percentCount {
+    float: right;
+    margin-top: -50px;
+    color: #252525;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Lato',
+        sans-serif;
+
+}
+
+.about-skill .progressbar {
+    background-color: #cccccc !important;
+}
+.about-skill .proggress {
+    background-color: #252525 !important;
+    height: 12px !important;
+}
+.about-skill{
+    padding-bottom: 20px;
+}
 /* ----- about part end ----- */
