@@ -9,9 +9,10 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
     /* banner part start  */
-    #banner{
+    #banner {
         background-position: center;
     }
+
     #banner .banner-overlay {
         padding-top: 240px;
         padding-bottom: 180px;
@@ -43,10 +44,20 @@
     }
 
     /* banner part end */
+    /* about part start  */
+    .about-img {
+        width: 367px;
+        margin: 0 auto;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    /* about part end */
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
     /* header part start  */
     .navbar button {
         outline: none;
@@ -82,7 +93,8 @@
         padding-bottom: 180px;
 
     }
-    .banner-content{
+
+    .banner-content {
         margin-right: auto;
     }
 
@@ -110,10 +122,48 @@
     }
 
     /* banner part end */
+
+    /* about part start  */
+    #about {
+        padding: 100px 0px;
+    }
+
+    .about-head {
+        padding-top: 30px;
+    }
+
+    .about-head h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .about-img {
+        width: 367px;
+        margin: 0 auto;
+    }
+
+    .about-img img {
+        width: 100%;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about-img-part {
+        text-align: center;
+    }
+
+    /* about part end */
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
     /* header part start  */
     .navbar button {
         outline: none;
@@ -174,20 +224,58 @@
     }
 
     /* banner part end */
+    /* about part start  */
+    #about {
+        padding: 100px 0px;
+    }
+
+    .about-head {
+        padding-top: 30px;
+    }
+
+    .about-head h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+}
+
+    .about-img {
+        width: 367px;
+        margin: 0 auto;
+    }
+
+    .about-img img {
+        width: 100%;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about-img-part {
+        text-align: center;
+    }
+
+    /* about part end */
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (min-width: 320px) and (max-width: 575.98px) {
 
     /* header part start  */
     .navbar button {
         outline: none;
         border: none;
     }
-    .navbar button i{
+
+    .navbar button i {
         font-size: 30px;
         color: #000;
     }
+
     /* header part end */
     .navbar-nav .nav-link::after,
     .navbar-nav .nav-link::before {
@@ -198,10 +286,12 @@
         line-height: 40px;
         border-bottom: 1px solid #ddd;
     }
-    #navbarSupportedContent .menu-btn{
+
+    #navbarSupportedContent .menu-btn {
         text-align: center;
         margin-top: 30px;
     }
+
     /* header part end  */
 
     /* banner part start  */
@@ -210,6 +300,7 @@
         padding-bottom: 150px;
 
     }
+
     .banner-text h3 {
         font-size: 24px;
     }
@@ -239,29 +330,49 @@
     /* banner part end */
 
     /* about part start  */
-    #about{
+    #about {
         padding: 100px 0px;
     }
-    .about-img{
-        display: flex;
-        justify-content: center;
+    .about-head {
+        padding-top: 30px;
     }
-    .about-img img{
+
+    .about-head h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    .about-img {
         width: 300px;
+        margin: 0 auto;
     }
+
+    .about-img img {
+        width: 100%;
+    }
+
     .about-img::after {
         position: absolute;
         content: '';
-        height: 391px;
+        height: 368px;
         width: 300px;
-        bottom: -20px;
-        right: 102px;
+        bottom: -17px;
+        right: -6%;
         background-color: #01be67;
         z-index: -1;
     }
+
     .about-text {
         text-align: center;
     }
+
+    .about-img-part {
+        text-align: center;
+    }
+
     /* about part end */
 
 

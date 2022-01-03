@@ -345,13 +345,12 @@ p {
 }
 
 .about-img img {
-    width: 370px;
     border-right: 15px solid #ffffff;
     border-bottom: 15px solid #ffffff;
+    width: 100%;
 }
 
 .about-img {
-
     position: relative;
     z-index: 1;
     display: inline-block;
@@ -420,6 +419,7 @@ p {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    margin-right: 10px;
 }
 
 .about-icon a:hover {
