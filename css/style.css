@@ -769,6 +769,9 @@ color: #01be67;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
 }
+#testimonial .slick-dots button:focusadd{
+    outline: 0 !important;
+}
 #testimonial .slick-dots li:hover button{
     transform: scale(1);
     -webkit-transform: scale(1);
