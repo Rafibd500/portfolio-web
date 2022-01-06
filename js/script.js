@@ -60,3 +60,55 @@ $(function () {
   });
 });
 // about progress bar end
+
+// work venobox satrt
+new VenoBox({
+  selctor: '.venobox'
+});
+// work venobox end
+
+
+// testimonial part start
+$('.testimonial-item-part').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  arrows: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  responsive: [{
+      breakpoint: 991.98,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 767.98,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 575.98,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+// testimonial part end 
+
+// counter part start
+jQuery(document).ready(function ($) {
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+  });
+});
+// counter part end

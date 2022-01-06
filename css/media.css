@@ -49,14 +49,40 @@
         width: 367px;
         margin: 0 auto;
     }
-    .about-img img{
+
+    .about-img img {
         width: 100%;
     }
+
     /* about part end */
+
+    /* serice part start  */
+    #service {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    /* serice part end */
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* common start  */
+    .common-head {
+        text-align: center;
+    }
+
+    .common-head h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    /* common end */
 
     /* header part start  */
     .navbar button {
@@ -159,10 +185,72 @@
     }
 
     /* about part end */
+    /* service part start */
+
+    #service {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    .service-head {
+        text-align: center;
+    }
+
+    .service-head h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .service-item {
+        text-align: center;
+    }
+
+    /* service part end */
+
+    /* testimonial part start */
+    #testimonial {
+        padding-top: 70px;
+        padding-bottom: 90px;
+    }
+
+    .testimonial-item p {
+        padding: 30px 0px 40px 0px !important;
+        font-size: 25px !important;
+        line-height: 30px !important;
+    }
+
+    /* testimonial part end */
+    /* counter part start  */
+    .counter-item {
+        padding: 40px 0px;
+        border-bottom: 1px solid #ddd;
+    }
+    /* counter part end */
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* common start  */
+    .common-head {
+        text-align: center;
+    }
+
+    .common-head h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    /* common end */
 
     /* header part start  */
     .navbar button {
@@ -240,7 +328,7 @@
         -moz-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
         -o-transform: translateX(-50%);
-}
+    }
 
     .about-img {
         width: 367px;
@@ -260,10 +348,90 @@
     }
 
     /* about part end */
+    /* service part start */
+
+    #service {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    .service-head {
+        text-align: center;
+    }
+
+    .service-head h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .service-item-part {
+        padding-top: 40px;
+    }
+
+    .service-item {
+        text-align: center;
+    }
+
+    /* service part end */
+
+    /* work part start  */
+    #work {
+        padding: 80px 0px;
+    }
+
+    .work-item-part {
+        padding-top: 50px;
+    }
+
+    /* work part end  */
+
+    /* testimonial part start */
+    #testimonial {
+        padding-top: 70px;
+        padding-bottom: 90px;
+    }
+
+    .testimonial-item p {
+        padding: 30px 0px 40px 0px !important;
+        font-size: 25px !important;
+        line-height: 30px !important;
+    }
+
+    /* testimonial part end */
+
+    /* counter part start  */
+    .counter-item {
+        padding: 40px 0px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    /* counter part end */
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 320px) and (max-width: 575.98px) {
+
+    /* common start  */
+    .common-head {
+        text-align: center;
+    }
+
+    .common-head h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    /* common end */
+
+
 
     /* header part start  */
     .navbar button {
@@ -333,18 +501,11 @@
     #about {
         padding: 100px 0px;
     }
+
     .about-head {
         padding-top: 30px;
     }
 
-    .about-head h3::after {
-        left: 50%;
-        transform: translateX(-50%);
-        -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
-    }
     .about-img {
         width: 300px;
     }
@@ -370,6 +531,65 @@
 
     /* about part end */
 
+    /* service part start */
+    #service {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
 
+    .service-head {
+        text-align: center;
+    }
+
+    .service-head h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .service-item-part {
+        padding-top: 40px;
+    }
+
+    .service-item {
+        text-align: center;
+    }
+
+    /* service part end */
+
+    /* work part start  */
+    #work {
+        padding: 70px 0px;
+    }
+
+    .work-item-part {
+        padding-top: 40px;
+    }
+
+    /* work part end */
+    /* testimonial part start */
+    #testimonial {
+        padding-top: 70px;
+        padding-bottom: 90px;
+    }
+
+    .testimonial-item p {
+        padding: 30px 0px 40px 0px !important;
+        font-size: 25px !important;
+        line-height: 30px !important;
+    }
+
+    /* testimonial part end */
+
+    /* counter part start  */
+    .counter-item {
+        padding: 40px 0px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    /* counter part end */
 
 }
