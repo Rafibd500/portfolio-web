@@ -913,7 +913,66 @@ color: #01be67;
 /* blog part end */
 
 /* contact part start */
+
 #contact{
     padding: 100px 0px;
+}
+.contact-info .info-item{
+    display: flex;
+    padding: 30px 0px;
+}
+.contact-info .info-item .info-icon i {
+    color: #070606;
+    font-size: 30px;
+}
+.contact-info .info-item .info-text h3 {
+    color: #070606;
+    font-size: 21px;
+    font-family: 'Poppins',
+    sans-serif;
+    font-weight: 400;
+}
+.contact-info .info-item .info-text p {
+    color: #959595;
+    font-size: 16px;
+    font-family: 'Poppins',
+    sans-serif;
+    font-weight: 400;
+    padding-top: 15px;
+    line-height: 24px;
+}
+.contact-info .info-item .info-text {
+    margin-left: 30px;
+
+}
+.contact-part{
+    padding-top: 60px;
+}
+.contact-form .name,
+.contact-form .email{
+    width: 395px;
+    
+}
+.contact-form .name{
+    margin-right: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 1px solid #c5c5c5;
+    background-color: #ffffff;
+    border-radius:5px;
+    padding: 15px 0px 15px 20px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    margin: 20px 0px;
+}
+.contact-form textarea{
+    padding-bottom:100px ;
+}
+.contact-btn a{
+    margin-left: 0px !important;
 }
 /* contact part end */
