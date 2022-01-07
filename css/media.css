@@ -410,6 +410,22 @@
     }
 
     /* counter part end */
+        /* blog part start  */
+        #blog {
+            padding-top: 80px;
+            padding-bottom: 60px;
+        }
+
+        .blog-item-part {
+            padding-top: 30px;
+        }
+
+        .blog-item h4 {
+            padding: 15px 0px;
+
+        }
+
+        /* blog part end */
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -592,4 +608,23 @@
 
     /* counter part end */
 
+    /* blog part start  */
+    #blog{
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    .blog-item-part{
+        padding-top: 30px;
+    }
+    .blog-item h3{
+        font-size: 19px;
+    }
+    .blog-item p{
+        font-size: 16px;
+    }
+    .blog-item h4{
+            padding: 15px 0px;
+
+    }
+    /* blog part end */
 }
