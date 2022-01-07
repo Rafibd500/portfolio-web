@@ -22,9 +22,7 @@ var typed = new Typed('.type', {
   loop: true,
 });
 // type 
-// for animation 
-AOS.init();
-// for animation 
+
 
 // about progress bar start
 
