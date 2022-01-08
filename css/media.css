@@ -63,6 +63,27 @@
     }
 
     /* serice part end */
+        /* conatct part start */
+        #contact {
+            padding: 70px 0px;
+        }
+
+        .contact-part {
+            padding-top: 40px;
+
+        }
+
+        .contact-form .name,
+        .contact-form .email {
+            width: 100%;
+
+        }
+
+        .contact-form form {
+            text-align: center;
+        }
+
+        /* conatct part end */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -230,6 +251,27 @@
         border-bottom: 1px solid #ddd;
     }
     /* counter part end */
+        /* conatct part start */
+        #contact {
+            padding: 70px 0px;
+        }
+
+        .contact-part {
+            padding-top: 40px;
+
+        }
+
+        .contact-form .name,
+        .contact-form .email {
+            width: 100%;
+
+        }
+
+        .contact-form form {
+            text-align: center;
+        }
+
+        /* conatct part end */
 
 }
 
@@ -426,6 +468,27 @@
         }
 
         /* blog part end */
+            /* conatct part start */
+            #contact {
+                padding: 70px 0px;
+            }
+
+            .contact-part {
+                padding-top: 40px;
+
+            }
+
+            .contact-form .name,
+            .contact-form .email {
+                width: 100%;
+
+            }
+
+            .contact-form form {
+                text-align: center;
+            }
+
+            /* conatct part end */
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -627,4 +690,22 @@
 
     }
     /* blog part end */
+
+    /* conatct part start */
+    #contact{
+        padding: 70px 0px;
+    }
+    .contact-part{
+        padding-top: 40px;
+
+    }
+    .contact-form .name,
+    .contact-form .email {
+        width: 100%;
+
+    }
+    .contact-form form{
+        text-align: center;
+    }
+    /* conatct part end */
 }
