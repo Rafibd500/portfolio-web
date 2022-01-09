@@ -28,6 +28,7 @@ p {
 }
 
 body {
+    position: relative;
     overflow-x: hidden;
 }
 
@@ -119,7 +120,7 @@ button {
     letter-spacing: 1px;
 }
 
-.navbar .nav-item.active .nav-link {
+.navbar .nav-item .nav-link.active {
     color: #01be67;
     letter-spacing: 1px;
 }
@@ -173,14 +174,14 @@ button {
     visibility: visible;
 }
 
-.navbar .nav-item.active .nav-link::before {
+.navbar .nav-item .nav-link.active::before {
     bottom: -3px;
     opacity: 1;
     visibility: visible;
 
 }
 
-.navbar .nav-item.active .nav-link::after {
+.navbar .nav-item .nav-link.active::after {
     bottom: -7px;
     opacity: 1;
     visibility: visible;

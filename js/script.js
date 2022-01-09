@@ -146,3 +146,19 @@ $('.blog-item-part').slick({
   ]
 });
 // blog part end 
+
+// scrollspy part start
+var html_body = $('html, body');
+$('nav a').on('click', function () {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+            html_body.animate({
+                scrollTop: target.offset().top - 50
+            }, 1500);
+            return false;
+        }
+    }
+}); 
+// scrollspy part end

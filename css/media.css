@@ -63,27 +63,27 @@
     }
 
     /* serice part end */
-        /* conatct part start */
-        #contact {
-            padding: 70px 0px;
-        }
+    /* conatct part start */
+    #contact {
+        padding: 70px 0px;
+    }
 
-        .contact-part {
-            padding-top: 40px;
+    .contact-part {
+        padding-top: 40px;
 
-        }
+    }
 
-        .contact-form .name,
-        .contact-form .email {
-            width: 100%;
+    .contact-form .name,
+    .contact-form .email {
+        width: 100%;
 
-        }
+    }
 
-        .contact-form form {
-            text-align: center;
-        }
+    .contact-form form {
+        text-align: center;
+    }
 
-        /* conatct part end */
+    /* conatct part end */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -130,6 +130,10 @@
     #navbarSupportedContent .menu-btn {
         text-align: center;
         margin-top: 30px;
+    }
+
+    .menu-btn a {
+        margin-left: 0px !important;
     }
 
     /* header part end  */
@@ -250,28 +254,29 @@
         padding: 40px 0px;
         border-bottom: 1px solid #ddd;
     }
+
     /* counter part end */
-        /* conatct part start */
-        #contact {
-            padding: 70px 0px;
-        }
+    /* conatct part start */
+    #contact {
+        padding: 70px 0px;
+    }
 
-        .contact-part {
-            padding-top: 40px;
+    .contact-part {
+        padding-top: 40px;
 
-        }
+    }
 
-        .contact-form .name,
-        .contact-form .email {
-            width: 100%;
+    .contact-form .name,
+    .contact-form .email {
+        width: 100%;
 
-        }
+    }
 
-        .contact-form form {
-            text-align: center;
-        }
+    .contact-form form {
+        text-align: center;
+    }
 
-        /* conatct part end */
+    /* conatct part end */
 
 }
 
@@ -319,6 +324,10 @@
     #navbarSupportedContent .menu-btn {
         text-align: center;
         margin-top: 30px;
+    }
+
+    .menu-btn a {
+        margin-left: 0px !important;
     }
 
     /* header part end  */
@@ -452,43 +461,43 @@
     }
 
     /* counter part end */
-        /* blog part start  */
-        #blog {
-            padding-top: 80px;
-            padding-bottom: 60px;
-        }
+    /* blog part start  */
+    #blog {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
 
-        .blog-item-part {
-            padding-top: 30px;
-        }
+    .blog-item-part {
+        padding-top: 30px;
+    }
 
-        .blog-item h4 {
-            padding: 15px 0px;
+    .blog-item h4 {
+        padding: 15px 0px;
 
-        }
+    }
 
-        /* blog part end */
-            /* conatct part start */
-            #contact {
-                padding: 70px 0px;
-            }
+    /* blog part end */
+    /* conatct part start */
+    #contact {
+        padding: 70px 0px;
+    }
 
-            .contact-part {
-                padding-top: 40px;
+    .contact-part {
+        padding-top: 40px;
 
-            }
+    }
 
-            .contact-form .name,
-            .contact-form .email {
-                width: 100%;
+    .contact-form .name,
+    .contact-form .email {
+        width: 100%;
 
-            }
+    }
 
-            .contact-form form {
-                text-align: center;
-            }
+    .contact-form form {
+        text-align: center;
+    }
 
-            /* conatct part end */
+    /* conatct part end */
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -537,6 +546,10 @@
     #navbarSupportedContent .menu-btn {
         text-align: center;
         margin-top: 30px;
+    }
+
+    .menu-btn a {
+        margin-left: 0px !important;
     }
 
     /* header part end  */
@@ -672,40 +685,49 @@
     /* counter part end */
 
     /* blog part start  */
-    #blog{
+    #blog {
         padding-top: 80px;
         padding-bottom: 60px;
     }
-    .blog-item-part{
+
+    .blog-item-part {
         padding-top: 30px;
     }
-    .blog-item h3{
+
+    .blog-item h3 {
         font-size: 19px;
     }
-    .blog-item p{
+
+    .blog-item p {
         font-size: 16px;
     }
-    .blog-item h4{
-            padding: 15px 0px;
+
+    .blog-item h4 {
+        padding: 15px 0px;
 
     }
+
     /* blog part end */
 
     /* conatct part start */
-    #contact{
+    #contact {
         padding: 70px 0px;
     }
-    .contact-part{
+
+    .contact-part {
         padding-top: 40px;
 
     }
+
     .contact-form .name,
     .contact-form .email {
         width: 100%;
 
     }
-    .contact-form form{
+
+    .contact-form form {
         text-align: center;
     }
+
     /* conatct part end */
 }
